@@ -20,3 +20,13 @@ h1{font-size:clamp(38px,5vw,62px);line-height:1.1;margin-bottom:22px}h1 span{col
 footer{background:#111827;color:#fff;text-align:center;padding:40px 20px}footer h3{color:#fbbf24;margin-bottom:8px}footer p{color:#cbd5e1;margin:6px}footer small{color:#94a3b8}
 @media(max-width:850px){.navbar{flex-direction:column;gap:12px}nav{gap:15px;flex-wrap:wrap;justify-content:center}.hero{grid-template-columns:1fr;padding:35px 5%}.hero-image{order:1}.hero-content{order:2}.hero-image img{height:390px}.cards{grid-template-columns:1fr 1fr}.about{grid-template-columns:1fr;padding:65px 6%}.contact-grid{grid-template-columns:1fr}}
 @media(max-width:500px){nav{font-size:14px}.hero-image img{height:330px}.cards{grid-template-columns:1fr}h1{font-size:36px}.section-heading h2{font-size:30px}.about h2{font-size:32px}}
+.shop-photo {
+  width: 100%;
+  max-width: 620px;
+  height: auto;
+  display: block;
+  margin: 0 auto 35px;
+  border-radius: 25px;
+  border: 7px solid #263238;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
